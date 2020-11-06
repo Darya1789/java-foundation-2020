@@ -12,5 +12,17 @@ public class Jungle {
 
         lion.setPawsCount(3);
         System.out.println("Лев с " + lion.getPawsCount() + " лапами");
+
+        Hyena shenzi = new Hyena("Шензи");
+        System.out.println("shenzi.getName() = " + shenzi.getName());
+
+        WildBoar pumpa = new WildBoar("Пумба", 35);
+        System.out.println("pumpa.getHeight() = " + pumpa.getHeight());
+
+        Meerkat timon = new Meerkat();
+        timon.setName("Тимон");
+        System.out.println("timon.getGender() = " + timon.getName());
+
+
     }
 }
