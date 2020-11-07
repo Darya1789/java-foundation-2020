@@ -2,7 +2,7 @@ package ru.itsjava.oop;
 
 public class Meerkat {
     private String name;
-    private Boolean gender;
+    private boolean gender;
     private boolean isMale;
 
     public Meerkat() {
@@ -16,9 +16,9 @@ public class Meerkat {
 
     public Meerkat(String name, String gender) {
         this.name = name;
-        if (gender == "женский") {
+        if (gender.equalsIgnoreCase("женский")) {
             this.isMale = false;
-        } else if (gender == "мужской") {
+        } else if (gender.equalsIgnoreCase("мужской")) {
             this.isMale = true;
         }
         System.out.println("Сурикат по имени " + name);
@@ -28,10 +28,10 @@ public class Meerkat {
         this.name = name;
     }
 
-    public void setGender(String gender) {
-        if (gender == "женский") {
+    public void setGenderByString(String gender) {
+        if (gender.equalsIgnoreCase("женский")) {
             this.gender = false;
-        } else if (gender == "мужской") {
+        } else if (gender.equalsIgnoreCase("мужской")) {
             this.gender = true;
         }
     }
@@ -40,7 +40,7 @@ public class Meerkat {
         return name;
     }
 
-    public String getGender() {
+    public String getStringGender() {
         if (isMale) {
             return "мужской";
         } else {

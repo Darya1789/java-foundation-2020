@@ -21,9 +21,14 @@ public class Jungle {
 
         Meerkat timon = new Meerkat();
         timon.setName("Тимон");
-        timon.setGender("женский");
-        System.out.println("timon.getGender() = " + timon.getGender());
+        timon.setGenderByString("женский");
+        System.out.println("timon.getGender() = " + timon.getStringGender());
 
+        Cat mars = new BritishCat();
+//        mars.sayMeow();
+//        mars.sayMrrr();
+        System.out.println("mars.getBreed() = " + mars.getBreed());
+        mars.sayMeow();
 
     }
 }
