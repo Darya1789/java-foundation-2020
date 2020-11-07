@@ -21,7 +21,8 @@ public class Jungle {
 
         Meerkat timon = new Meerkat();
         timon.setName("Тимон");
-        System.out.println("timon.getGender() = " + timon.getName());
+        timon.setGender("женский");
+        System.out.println("timon.getGender() = " + timon.getGender());
 
 
     }
