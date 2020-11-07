@@ -10,6 +10,8 @@
         <module name="java-foundation-2020" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="11">
+      <module name="java-foundation-2020" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
