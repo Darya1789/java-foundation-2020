@@ -6,13 +6,13 @@ import lombok.Setter;
 @Setter
 @Getter
 
-public class Cup {
-    private String color;
+public class House {
+    private int floorCount;
     private String type;
-    private String materialType;
+    private String address;
 
-    public Cup(String type) {
+    public House(String type, String address) {
         this.type = type;
+        this.address = address;
     }
-
 }
