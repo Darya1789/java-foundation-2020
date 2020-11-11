@@ -13,14 +13,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18b6dc59-85d7-44fc-bed0-92d1d2c1d938" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop1/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop1/Mountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop1/Notebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop1/Telephone.java" afterDir="false" />
+    <list default="true" id="18b6dc59-85d7-44fc-bed0-92d1d2c1d938" name="Default Changelist" comment="add in StartClass.java functionality">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Panther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Restangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/StartClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Woman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop1/Cup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop1/Cup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +65,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.StartClass">
+  <component name="RunManager" selected="Application.StartClass (1)">
     <configuration name="Jungle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.itsjava.oop.Jungle" />
       <module name="java-foundation-2020" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.itsjava.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.itsjava.homework.oop2.StartClass" />
+      <module name="java-foundation-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itsjava.homework.oop2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartClass (1)" />
         <item itemvalue="Application.StartClass" />
         <item itemvalue="Application.Jungle" />
       </list>
@@ -131,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604784664741</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add 5 new classes">
+      <created>1604870165163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604870165163</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add in StartClass.java functionality">
+      <created>1604870656856</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604870656856</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,14 +184,16 @@
     <MESSAGE value="add Hyena.java, Meerkat.java, WildBoar.java" />
     <MESSAGE value="Java oop in class" />
     <MESSAGE value="New package for Homework&#10;add Cow.java, Cup.java, Shop.java, StartClass.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="add 5 new classes" />
+    <MESSAGE value="add in StartClass.java functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="add in StartClass.java functionality" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1604752362572">
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1605125433862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604752362572" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605125433862" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1604601728183">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -175,22 +210,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="491" y="116" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604595779339" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604786166310">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605125891793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604786166310" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604786166309">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605125891793" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605125891793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604786166309" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604786166309">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605125891793" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605125891793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604786166309" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604786166310">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605125891793" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605125891793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604786166310" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605125891793" />
     <state x="147" y="65" key="MergeDialog" timestamp="1604785378101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -207,10 +242,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604788033600" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604787842841">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604870659784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604787842841" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604870659784" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604786595195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
