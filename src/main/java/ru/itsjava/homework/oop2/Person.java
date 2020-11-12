@@ -7,9 +7,9 @@ import lombok.Setter;
 @Getter
 
 public class Person {
-    private boolean isMale;
-    private String name;
-    private int age;
+    protected boolean isMale;
+    protected String name;
+    protected int age;
 
     public Person() {
         System.out.println("Человек");

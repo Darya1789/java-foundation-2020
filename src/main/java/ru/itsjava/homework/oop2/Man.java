@@ -7,9 +7,7 @@ import lombok.Setter;
 @Getter
 
 public class Man extends Person {
-    private boolean isMale;
-    private String name;
-    private int age;
+
 
     public Man() {
         isMale = true;

@@ -13,19 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18b6dc59-85d7-44fc-bed0-92d1d2c1d938" name="Default Changelist" comment="add in StartClass.java functionality">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Panther.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Restangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/StartClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Woman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="18b6dc59-85d7-44fc-bed0-92d1d2c1d938" name="Default Changelist" comment="add homewoke N2">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/oop2/Woman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604870656856</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add homewoke N2">
+      <created>1605126376035</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605126376035</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +184,8 @@
     <MESSAGE value="New package for Homework&#10;add Cow.java, Cup.java, Shop.java, StartClass.java" />
     <MESSAGE value="add 5 new classes" />
     <MESSAGE value="add in StartClass.java functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="add in StartClass.java functionality" />
+    <MESSAGE value="add homewoke N2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add homewoke N2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -210,22 +209,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="491" y="116" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604595779339" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605125891793">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605126313047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605125891793" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605125891793">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605126313047" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605126313047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605125891793" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605125891793">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605126313047" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605126313047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605125891793" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605125891793">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605126313047" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605126313047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605125891793" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605126313047" />
     <state x="147" y="65" key="MergeDialog" timestamp="1604785378101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -242,10 +241,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604788033600" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604870659784">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605126378897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604870659784" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605126378897" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604786595195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
