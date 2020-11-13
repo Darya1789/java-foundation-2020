@@ -1,31 +1,33 @@
 package ru.itsjava.homework.oop1;
 
+import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
+
+@AllArgsConstructor
+@RequiredArgsConstructor
+
 public class Cow {
     private String color;
-    private String breed;
-    private String name;
+    private final String name;
+    private final String breed;
+
     private String pawsCount;
 
-    public Cow() {
-        System.out.println("Просто корова");
-    }
+//    public Cow() {
+//        System.out.println("Просто корова");
+//    }
 
-
-
-    public void setBreed(String breed) {
-        this.breed = breed;
-    }
 
     public String getBreed() {
         return breed;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getName() {
         return name;
+    }
+
+    public String toString() {
+        return "Корова {" + "имя = \'" + name + "\', порода = \'" + breed + "\'}";
     }
 
 
