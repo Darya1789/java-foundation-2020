@@ -9,7 +9,7 @@ public class PromDress extends ShopItems {
 
 
     public PromDress(String color, double price, String length) {
-        super("Выпукное", color, price, length);
+        super("Выпускное", color, price, length);
 
     }
 

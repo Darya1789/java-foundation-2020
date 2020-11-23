@@ -1,5 +1,6 @@
 package ru.itsjava.dressShop;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -7,51 +8,10 @@ import java.util.Scanner;
 
 @Setter
 @Getter
+@AllArgsConstructor
 public class Catalog {
-    private ShopItems[] items = new ShopItems[0];
-    private Scanner console = new Scanner(System.in);
-
-    public Catalog() {
-    }
-
-
-    public void start() {
-        printMenu();
-        while (true) {
-            System.out.println("\nВведите номер меню: ");
-            int menuNum = console.nextInt();
-            if (menuNum == 1) {
-                printItems();
-            } else if (menuNum == 2) {
-                addItems();
-            } else if (menuNum == 3) {
-                delItem();
-            }
-            //else if (menuNum == 4) {
-//                seletionSort(items);
-//            } else if (menuNum == 5) {
-//                isDressInShop(items, null, console);
-//            } else if (menuNum == 6) {
-//                cart = addToCart(items, cart, console);
-//            } else if (menuNum == 7) {
-//                printCart(cart);
-//            } else if (menuNum == 0) {
-//                System.out.println("Приходите еще!");
-//                System.exit(0);
-//            }
-        }
-    }
-
-    private void printMenu() {
-        System.out.println(" Mеню:\n" +
-                " 1. Посмотреть все платья\n" +
-                " 2. Добавить платье\n" +
-                " 3. Купить\n" +
-                " 4. Отортировать по алфавиту\n" +
-                " 5. Определить наличие товара в магазине\n" +
-                " 6. Отложить товар в корзину\n" +
-                " 0. Выход");
-    }
+    private ShopItems[] items;
+    private Scanner console;
 
     public void printItems() {
         for (int i = 0; i < items.length; i++) {
@@ -89,7 +49,7 @@ public class Catalog {
     }
 
 
-    private void delItem() {
+    public void delItem() {
         System.out.println("Введите платье, которое вы купили: ");
         String inputDress = console.next();
 
@@ -97,26 +57,31 @@ public class Catalog {
             System.out.println("Такого платья нет в магазине. Выберите другой!");
         }
         ShopItems[] newItems = new ShopItems[items.length - 1];
-        int index = -1;
-        for (int i = 0; i < items.length; i++) {
-            if (items[i].getType().equalsIgnoreCase(inputDress)) {
-                index = i;
-                break;
+        if (newItems.length != 0) {
+            int index = -1;
+            for (int i = 0; i < items.length; i++) {
+                if (items[i].getType().equalsIgnoreCase(inputDress)) {
+                    index = i;
+                    break;
+                }
+                newItems[i] = items[i];
             }
-            newItems[i] = items[i];
-        }
-        for (int i = index; i < newItems.length; i++) {
-            newItems[i] = items[i + 1];
+            for (int i = index; i < newItems.length; i++) {
+                newItems[i] = items[i + 1];
+            }
         }
         items = newItems;
     }
 
-    private boolean isDressInShop(String dress) {
+    public boolean isDressInShop(String dress) {
 
         String inputDress;
+        boolean flagConsole = false;
         if (dress == null) {
             System.out.println("Введите платье, наличие которого нужно уточнить:");
             inputDress = console.next();
+            flagConsole = true;
+
         } else {
             inputDress = dress;
         }
@@ -128,7 +93,7 @@ public class Catalog {
                 break;
             }
         }
-        if (console != null) {
+        if (flagConsole) {
             if (isExist) {
                 System.out.println("Все отлично, данный тип платья есть в нашем магазине.");
 
@@ -138,5 +103,22 @@ public class Catalog {
         }
         return isExist;
     }
+
+    public void seletionSort() {
+
+        for (int i = 0; i < items.length; i++) {
+            int minElem = i;
+            for (int j = 1 + i; j < items.length; j++) {
+                if (items[j].getType().charAt(0) < items[minElem].getType().charAt(0)) {
+                    minElem = j;
+                }
+            }
+            ShopItems temp = items[i];
+            items[i] = items[minElem];
+            items[minElem] = temp;
+        }
+    }
+
+
 
 }
