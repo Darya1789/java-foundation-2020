@@ -6,7 +6,8 @@ public class Menu {
     private final Scanner console = new Scanner(System.in);
     private Catalog catalog = new Catalog(new Dress[0], console);
     private Cart cart = new Cart(catalog, new Dress[0], console);
-    private DressesList list = new DressesList();
+    private DressesList listCatalog = new DressesList(catalog.getItemsDresses(), console);
+    private DressesList listCart = new DressesList(cart.getItemsCart(), console);
 
 
     public void start() {
@@ -18,23 +19,23 @@ public class Menu {
             if (menuNum == 1) {
                 printMenu();
             } else if (menuNum == 2) {
-                list.printItems(catalog.getItemsDresses());
+                listCatalog.printItems();
             } else if (menuNum == 3) {
-                catalog.setItemsDresses(list.addItemsToCatalog(catalog, console));
+                listCatalog.addItemsToCatalog();
             } else if (menuNum == 4) {
-                catalog.setItemsDresses(list.delItem(catalog.getItemsDresses(), console));
+                listCatalog.delItem();
             } else if (menuNum == 5) {
-                list.seletionSort(catalog.getItemsDresses());
+                listCatalog.seletionSort();
             } else if (menuNum == 6) {
-                list.isDressInShop(catalog.getItemsDresses(), null, console);
+                listCatalog.isDressInShop(catalog.getItemsDresses(), null);
             } else if (menuNum == 7) {
-                list.addItemsToCat(catalog, cart, console);
+                listCart.addItemsToCat(catalog.getItemsDresses());
             } else if (menuNum == 8) {
-                list.printItems(cart.getItemsCart());
+                listCart.printItems();
             } else if (menuNum == 9) {
-                list.seletionSort(cart.getItemsCart());
+                listCart.seletionSort();
             } else if (menuNum == 10) {
-                cart.setItemsCart(list.delItem(cart.getItemsCart(), console));
+                listCart.delItem();
             } else if (menuNum == 0) {
                 System.out.println("Приходите еще!");
                 System.exit(0);
