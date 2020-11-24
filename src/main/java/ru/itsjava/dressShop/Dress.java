@@ -9,9 +9,8 @@ import lombok.Setter;
 @RequiredArgsConstructor
 @Setter
 @Getter
-public class ShopItems {
+public class Dress {
     private final String type;
-    private final String color;
     private double price;
     private final String length;
 
@@ -20,7 +19,6 @@ public class ShopItems {
     public String toString() {
         return "Платье {" +
                 "тип'" + type + '\'' +
-                ", цвет='" + color + '\'' +
                 ", цена=" + price +
                 ", длина='" + length + '\'' +
                 '}';

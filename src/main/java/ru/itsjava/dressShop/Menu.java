@@ -4,29 +4,37 @@ import java.util.Scanner;
 
 public class Menu {
     private final Scanner console = new Scanner(System.in);
-    private Catalog catalog = new Catalog(new ShopItems[0], console);
-    private Cart cart = new Cart(new ShopItems[0], console);
+    private Catalog catalog = new Catalog(new Dress[0], console);
+    private Cart cart = new Cart(catalog, new Dress[0], console);
+    private DressesList list = new DressesList();
 
 
     public void start() {
         printMenu();
+
         while (true) {
             System.out.println("\nВведите номер меню: ");
             int menuNum = console.nextInt();
             if (menuNum == 1) {
-                catalog.printItems();
+                printMenu();
             } else if (menuNum == 2) {
-                catalog.addItems();
+                list.printItems(catalog.getItemsDresses());
             } else if (menuNum == 3) {
-                catalog.delItem();
+                catalog.setItemsDresses(list.addItemsToCatalog(catalog, console));
             } else if (menuNum == 4) {
-                catalog.seletionSort();
+                catalog.setItemsDresses(list.delItem(catalog.getItemsDresses(), console));
             } else if (menuNum == 5) {
-                catalog.isDressInShop(null);
+                list.seletionSort(catalog.getItemsDresses());
             } else if (menuNum == 6) {
-                cart.addItems(catalog.getItems());
+                list.isDressInShop(catalog.getItemsDresses(), null, console);
             } else if (menuNum == 7) {
-                cart.printItems();
+                list.addItemsToCat(catalog, cart, console);
+            } else if (menuNum == 8) {
+                list.printItems(cart.getItemsCart());
+            } else if (menuNum == 9) {
+                list.seletionSort(cart.getItemsCart());
+            } else if (menuNum == 10) {
+                cart.setItemsCart(list.delItem(cart.getItemsCart(), console));
             } else if (menuNum == 0) {
                 System.out.println("Приходите еще!");
                 System.exit(0);
@@ -37,12 +45,16 @@ public class Menu {
 
     private void printMenu() {
         System.out.println(" Mеню:\n" +
-                " 1. Посмотреть все платья\n" +
-                " 2. Добавить платье\n" +
-                " 3. Купить\n" +
-                " 4. Отортировать по алфавиту\n" +
-                " 5. Определить наличие товара в магазине\n" +
-                " 6. Отложить товар в корзину\n" +
+                " 1. Посмотреть меню\n" +
+                " 2. Посмотреть все платья\n" +
+                " 3. Добавить платье\n" +
+                " 4. Купить\n" +
+                " 5. Отортировать по алфавиту\n" +
+                " 6. Определить наличие товара в магазине\n" +
+                " 7. Отложить товар в корзину\n" +
+                " 8. Посмотреть корзину\n" +
+                " 9. Отсортировать корзину\n" +
+                " 10. Удалить из корзины\n" +
                 " 0. Выход");
     }
 
