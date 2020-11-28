@@ -13,13 +13,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18b6dc59-85d7-44fc-bed0-92d1d2c1d938" name="Default Changelist" comment="add new Project Notepad">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/comparable/Bar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/comparable/Bottle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/interfaces/BadGin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/interfaces/Creatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/interfaces/Gin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/interfaces/InterfacePractice.java" afterDir="false" />
+    <list default="true" id="18b6dc59-85d7-44fc-bed0-92d1d2c1d938" name="Default Changelist" comment="classwork">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/interfaces/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/interfaces/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/interfaces/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/interfaces/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/interfaces/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/interfaces/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/interfaces/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/interfaces/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/interfaces/Swimable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/interfaces/Vodka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/interfaces/Walkable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +66,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.Bar">
+  <component name="RunManager" selected="Application.App (2)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.itsjava.notepad.App" />
       <module name="java-foundation-2020" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.itsjava.notepad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.itsjava.homework.interfaces.App" />
+      <module name="java-foundation-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itsjava.homework.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.itsjava.dressShop.Menu" />
-      <module name="java-foundation-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.itsjava.dressShop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.Bar" />
         <item itemvalue="Application.InterfacePractice" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.Menu" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606336543502</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="classwork">
+      <created>1606518161970</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606518161970</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,14 +286,15 @@
     <MESSAGE value="add new classes of dress: sport, children and knitted; add DressesList.java: all functionality." />
     <MESSAGE value="add parameters in DressesList.java and rewrite Menu.java" />
     <MESSAGE value="add new Project Notepad" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new Project Notepad" />
+    <MESSAGE value="classwork" />
+    <option name="LAST_COMMIT_MESSAGE" value="classwork" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1606414302803">
+    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1606521181425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606414302803" />
+    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606521181425" />
     <state x="549" y="277" width="437" height="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606146258652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -302,22 +315,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="491" y="116" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604595779339" />
-    <state width="723" height="315" key="GridCell.Tab.0.bottom" timestamp="1606414477527">
+    <state width="1493" height="315" key="GridCell.Tab.0.bottom" timestamp="1606520122296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="315" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606414477527" />
-    <state width="723" height="315" key="GridCell.Tab.0.center" timestamp="1606414477527">
+    <state width="1493" height="315" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606520122296" />
+    <state width="1493" height="315" key="GridCell.Tab.0.center" timestamp="1606520122296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="315" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606414477527" />
-    <state width="723" height="315" key="GridCell.Tab.0.left" timestamp="1606414477527">
+    <state width="1493" height="315" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606520122296" />
+    <state width="1493" height="315" key="GridCell.Tab.0.left" timestamp="1606520122295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="315" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606414477527" />
-    <state width="723" height="315" key="GridCell.Tab.0.right" timestamp="1606414477527">
+    <state width="1493" height="315" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606520122295" />
+    <state width="1493" height="315" key="GridCell.Tab.0.right" timestamp="1606520122296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="315" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606414477527" />
+    <state width="1493" height="315" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606520122296" />
     <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1606335255278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -350,10 +363,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604788033600" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606336546541">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606518174307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606336546541" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606518174307" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604786595195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
