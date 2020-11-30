@@ -18,7 +18,13 @@ public class App {
         Vodka smirnov = new Vodka("Смирнов", 0.7, "Россия");
         smirnov.drinkTooMuch("Смирнов");
 
-
+        // Задание 4.
+        System.out.println("\nЗадание 4.");
+        Person sasha = new Person("Саша", "Иванов", 25);
+        Person sasha2 = new Person("Саша", "Иванов", 28);
+      //  Person sasha = new Person("Саша", "Иванов", 25);
+        //Person sasha = new Person("Саша", "Иванов", 25);
+        //Person[] men = new Person[]{}
 
 
     }
