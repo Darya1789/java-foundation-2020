@@ -1,5 +1,7 @@
 package ru.itsjava.homework.interfaces;
 
+import java.util.Arrays;
+
 public class App {
     public static void main(String[] args) {
         // Задание 1, 2.
@@ -22,9 +24,14 @@ public class App {
         System.out.println("\nЗадание 4.");
         Person sasha = new Person("Саша", "Иванов", 25);
         Person sasha2 = new Person("Саша", "Иванов", 28);
-      //  Person sasha = new Person("Саша", "Иванов", 25);
-        //Person sasha = new Person("Саша", "Иванов", 25);
-        //Person[] men = new Person[]{}
+        Person dasha = new Person("Даша", "Сидорова", 25);
+        Person masha = new Person("Маша", "Иванов", 25);
+        Person[] men = new Person[]{masha, sasha2, dasha, sasha};
+        System.out.println("Before");
+        System.out.println("men = " + Arrays.toString(men));
+        System.out.println("After");
+        Arrays.sort(men);
+        System.out.println("men = " + Arrays.toString(men));
 
 
     }

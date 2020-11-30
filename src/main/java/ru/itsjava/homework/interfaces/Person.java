@@ -19,4 +19,13 @@ public class Person implements Comparable<Person> {
         } else return compareName;
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
