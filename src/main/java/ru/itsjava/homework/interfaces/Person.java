@@ -3,7 +3,7 @@ package ru.itsjava.homework.interfaces;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class Person implements Comparable<Person> {
+public class Person implements Comparable<Person>, Cloneable{
     private String name;
     private String surname;
     private double age;
@@ -27,5 +27,10 @@ public class Person implements Comparable<Person> {
                 ", surname='" + surname + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }

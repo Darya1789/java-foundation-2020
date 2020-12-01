@@ -3,7 +3,7 @@ package ru.itsjava.homework.interfaces;
 import java.util.Arrays;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         // Задание 1, 2.
         System.out.println("\nЗадание 1, 2.");
         Man man = new Man();
@@ -32,6 +32,10 @@ public class App {
         System.out.println("After");
         Arrays.sort(men);
         System.out.println("men = " + Arrays.toString(men));
+
+        // Задание 4.
+        System.out.println("\nЗадание 4.");
+        System.out.println("sasha.clone() = " + sasha.clone());
 
 
     }
