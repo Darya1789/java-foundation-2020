@@ -1,4 +1,6 @@
-package ru.itsjava.homework.oop2;
+package ru.itsjava.homework.oop2.figure;
+
+import ru.itsjava.homework.oop2.*;
 
 public class StartClass {
     public static void main(String[] args) {
@@ -41,15 +43,19 @@ public class StartClass {
         Figure kvadrat = new Square(5);
         Figure treygolnik = new Triangle(3,4,5);
         Figure pryamoygolnik = new Restangle(5, 8);
+        Figure krug = new Circle(5);
 
-        System.out.println("kvadrat.perimeter() = " + kvadrat.perimeter());
-        System.out.println("kvadrat.square() = " + kvadrat.square());
+        System.out.println("kvadrat.perimeter() = " + kvadrat.getPerimeter());
+        System.out.println("kvadrat.square() = " + kvadrat.getArea());
 
-        System.out.println("treygolnik.perimeter() = " + treygolnik.perimeter());
-        System.out.println("treygolnik.square() = " + treygolnik.square());
+        System.out.println("treygolnik.perimeter() = " + treygolnik.getPerimeter());
+        System.out.println("treygolnik.square() = " + treygolnik.getArea());
 
-        System.out.println("pryamoygolnik.perimeter() = " + pryamoygolnik.perimeter());
-        System.out.println("pryamoygolnik.square() = " + pryamoygolnik.square());
+        System.out.println("pryamoygolnik.perimeter() = " + pryamoygolnik.getPerimeter());
+        System.out.println("pryamoygolnik.square() = " + pryamoygolnik.getArea());
+
+        System.out.println("krug.getArea() = " + krug.getArea());
+        System.out.println("krug.getPerimeter() = " + krug.getPerimeter());
 
 
     }
