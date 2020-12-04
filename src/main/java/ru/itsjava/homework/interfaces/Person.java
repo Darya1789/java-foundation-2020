@@ -16,8 +16,9 @@ public class Person implements Comparable<Person>, Cloneable{
             if (compareSurname == 0) {
                 return Double.compare(age, o.age);
             }
-        } else return compareName;
-        return 0;
+            return compareSurname;
+        }
+        return compareName;
     }
 
     @Override
