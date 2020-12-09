@@ -4,7 +4,7 @@ public enum WeekDays {
     MONDAY("понедельник"), TUESDAY("вторник"), WEDNESDAY("среда"), THURSDAY("четверг"),
     FRIDAY("пятница"), SATURDAY("суббота"), SUNDAY("воскресенье");
 
-    public final String translate;
+    private final String translate;
 
     WeekDays(String translate) {
         this.translate = translate;

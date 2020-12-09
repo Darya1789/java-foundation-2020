@@ -5,7 +5,7 @@ public class Main {
         Person person = new Person("Darya");
         try {
             person.setAge(120);
-        } catch (IncorrectAge incorrectAge) {
+        } catch (IncorrectAgeException incorrectAge) {
             System.err.println(incorrectAge);
         }
 

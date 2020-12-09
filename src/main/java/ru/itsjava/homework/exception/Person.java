@@ -12,7 +12,7 @@ public class Person {
     private int age;
 
     public void setAge(int age) {
-        if (age < 0 || age > 110) throw new IncorrectAge();
+        if (age < 0 || age > 110) throw new IncorrectAgeException();
             this.age = age;
     }
 }
