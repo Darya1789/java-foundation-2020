@@ -13,58 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18b6dc59-85d7-44fc-bed0-92d1d2c1d938" name="Default Changelist" comment="Test tor Telephone.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/enums/EnumsPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/enums/Season.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/enums/WinterMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/exceptions/ExceptionPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/exceptions/IncorrectUsernameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/exceptions/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/proxy/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/proxy/UserProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/proxy/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/exception/ExceptionHomework.java" afterDir="false" />
+    <list default="true" id="18b6dc59-85d7-44fc-bed0-92d1d2c1d938" name="Default Changelist" comment="Classwork">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/exception/IncorrectAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/exception/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/exception/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/comparable/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/comparable/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/comparable/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/comparable/Bottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/dressShop/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/dressShop/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/dressShop/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/dressShop/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/dressShop/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/dressShop/Catalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/dressShop/ChildrenDress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/dressShop/ChildrenDress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/dressShop/Dress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/dressShop/Dress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/dressShop/DressesList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/dressShop/DressesList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/dressShop/KnittedDress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/dressShop/KnittedDress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/dressShop/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/dressShop/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/dressShop/PromDress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/dressShop/PromDress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/dressShop/SportDress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/dressShop/SportDress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/dressShop/WeddingDress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/dressShop/WeddingDress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/git/TestGit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/git/TestGit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/inheritance/Bmv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/inheritance/Bmv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/inheritance/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/inheritance/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/inheritance/Controllable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/inheritance/Controllable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/inheritance/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/inheritance/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/inheritance/Movable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/interfaces/BadGin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/interfaces/BadGin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/interfaces/Creatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/interfaces/Creatable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/interfaces/Gin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/interfaces/Gin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/interfaces/InterfacePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/interfaces/InterfacePractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/notepad/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/notepad/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/notepad/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/notepad/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/notepad/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/notepad/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/notepad/Notepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/notepad/Notepad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/object/Telephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/object/Telephone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/object/TelephoneShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/object/TelephoneShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/oop/BritishCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/oop/BritishCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/oop/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/oop/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/oop/Hyena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/oop/Hyena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/oop/Jungle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/oop/Jungle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/oop/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/oop/Lion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/oop/Meerkat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/oop/Meerkat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/oop/WildBoar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/oop/WildBoar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/statics/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/statics/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/statics/Salary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/statics/Salary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/string/StringPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/string/StringPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/itsjava/object/TelephoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/itsjava/classwork/object/TelephoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/exception/ExceptionHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/exception/ExceptionHomework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +69,7 @@
       <recent name="ru.itsjava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnumsPractice">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="EnumsPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.enums.EnumsPractice" />
       <module name="java-foundation-2020" />
@@ -129,12 +83,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExceptionHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.itsjava.homework.exception.ExceptionHomework" />
+      <module name="java-foundation-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itsjava.homework.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExceptionPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.exceptions.ExceptionPractice" />
       <module name="java-foundation-2020" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.itsjava.classwork.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.itsjava.homework.exception.Main" />
+      <module name="java-foundation-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itsjava.homework.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,45 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelephoneTest.shouldHaveCorrectEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-foundation-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.itsjava.classwork.object.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.itsjava.classwork.object" />
-      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.object.TelephoneTest" />
-      <option name="METHOD_NAME" value="shouldHaveCorrectEquals" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelephoneTest.shouldHaveCorrectToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-foundation-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.itsjava.classwork.object.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.itsjava.classwork.object" />
-      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.object.TelephoneTest" />
-      <option name="METHOD_NAME" value="shouldHaveCorrectToString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ExceptionHomework" />
         <item itemvalue="Application.EnumsPractice" />
         <item itemvalue="Application.ExceptionPractice" />
         <item itemvalue="JUnit.TelephoneTest" />
-        <item itemvalue="JUnit.TelephoneTest.shouldHaveCorrectToString" />
-        <item itemvalue="JUnit.TelephoneTest.shouldHaveCorrectEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607109651121</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Classwork">
+      <created>1607523323981</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1607523323981</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,7 +352,8 @@
     <MESSAGE value="upgrade figures + add interface talkable and eatable" />
     <MESSAGE value="classwork" />
     <MESSAGE value="Test tor Telephone.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test tor Telephone.java" />
+    <MESSAGE value="Classwork" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classwork" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -405,10 +361,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1607015586980" />
-    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1607173607392">
+    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1607541837218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607173607392" />
+    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607541837218" />
     <state x="449" y="146" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606769155560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -441,22 +397,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="491" y="116" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604595779339" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1607173821648">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1607523894368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607173821648" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1607173821648">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607523894368" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1607523894368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607173821648" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1607173821648">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607523894368" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1607523894368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607173821648" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1607173821648">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607523894368" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1607523894368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607173821648" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607523894368" />
     <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1606769894843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
