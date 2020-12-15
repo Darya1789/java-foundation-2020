@@ -14,9 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18b6dc59-85d7-44fc-bed0-92d1d2c1d938" name="Default Changelist" comment="classwork about arraylist">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/collection/list/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedListPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/mylinkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/itsjava/classwork/collection/list/myarraylist/MyArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/collection/list/ArrayListHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/homework/collection/list/ArrayListHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/myarraylist/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/myarraylist/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/myarraylist/MyArrayListPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/myarraylist/MyArrayListPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,55 +69,17 @@
       <recent name="ru.itsjava.classwork" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.itsjava.classwork.collection.list.mylinkedlist" />
       <recent name="ru.itsjava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListHW">
+  <component name="RunManager" selected="JUnit.MyLinkedListTest.shouldHaveCorrectAddElement">
     <configuration name="ArrayListHW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.itsjava.homework.collection.list.ArrayListHW" />
       <module name="java-foundation-2020" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.itsjava.homework.collection.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.collection.list.practice.ListPractice" />
-      <module name="java-foundation-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.itsjava.classwork.collection.list.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.itsjava.homework.numaration.Main" />
-      <module name="java-foundation-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.itsjava.homework.numaration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.core.Main" />
-      <module name="java-foundation-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.itsjava.classwork.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +100,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyLinkedListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist.MyLinkedListPractice" />
+      <module name="java-foundation-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itsjava.classwork.collection.list.mylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-foundation-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itsjava.classwork.collection.list.myarraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.itsjava.classwork.collection.list.myarraylist" />
+      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.collection.list.myarraylist.MyArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedListTest.shouldHaveCorrectAddElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-foundation-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itsjava.classwork.collection.list.mylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist.MyLinkedListTest" />
+      <option name="METHOD_NAME" value="shouldHaveCorrectAddElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayListHW" />
+        <item itemvalue="JUnit.MyLinkedListTest.shouldHaveCorrectAddElement" />
+        <item itemvalue="Application.MyLinkedListPractice" />
         <item itemvalue="Application.MyArrayListPractice" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.ListPractice" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.MyArrayListTest" />
+        <item itemvalue="Application.ArrayListHW" />
       </list>
     </recent_temporary>
   </component>
@@ -389,10 +400,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1607015586980" />
-    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1607725355119">
+    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1608056713888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607725355119" />
+    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1608056713888" />
     <state x="449" y="146" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606769155560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -429,38 +440,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="491" y="116" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604595779339" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1607726412742">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1608058098591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607726412742" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1607726412742">
+    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
+    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1608058098591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607726412742" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1607726412742">
+    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
+    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1608058098591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607726412742" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1607726412742">
+    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
+    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1608058098591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607726412742" />
-    <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1607719728717">
+    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1608058098591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607719728717" />
-    <state width="1493" height="255" key="GridCell.Tab.1.center" timestamp="1607719728717">
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
+    <state width="1493" height="255" key="GridCell.Tab.1.center" timestamp="1608058098591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607719728717" />
-    <state width="1493" height="255" key="GridCell.Tab.1.left" timestamp="1607719728717">
+    <state width="1493" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
+    <state width="1493" height="255" key="GridCell.Tab.1.left" timestamp="1608058098591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607719728717" />
-    <state width="1493" height="255" key="GridCell.Tab.1.right" timestamp="1607719728717">
+    <state width="1493" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right" timestamp="1608058098591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607719728717" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1607542642699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
