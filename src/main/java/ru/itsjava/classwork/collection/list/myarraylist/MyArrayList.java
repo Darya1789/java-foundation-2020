@@ -15,7 +15,7 @@ public class MyArrayList {
     }
 
     public boolean isEmpty() {
-        return false;
+        return realSize == 0;
     }
 
     public boolean contains(Object o) {
@@ -23,7 +23,7 @@ public class MyArrayList {
     }
 
     public Object[] toArray() {
-        return new Object[0];
+        return array;
     }
 
     public boolean add(Object o) {
@@ -37,7 +37,10 @@ public class MyArrayList {
     }
 
     public void clear() {
-
+        for (int i = 0; i < realSize; i++) {
+            array[i] = null;
+        }
+        realSize = 0;
     }
 
     private void checkIndex(int index) {
@@ -51,12 +54,24 @@ public class MyArrayList {
         return array[index];
     }
 
-    public Object set(int index, Object element) {
-        return null;
+    public boolean set(int index, Object element) {
+        checkIndex(index);
+        array[index] = element;
+        return true;
     }
 
-    public Object remove(int index) {
-        return null;
+    public boolean remove(int index) {
+        checkIndex(index);
+        Object[] resultArray = new Object[array.length];
+        for (int i = 0; i < index; i++) {
+            resultArray[i] = array[i];
+        }
+        for (int i = index; i < realSize; i++) {
+            resultArray[i] = array[i + 1];
+        }
+        array = resultArray;
+        realSize--;
+        return true;
     }
 
     public boolean remove(Object o) {
@@ -79,11 +94,25 @@ public class MyArrayList {
     }
 
     public int indexOf(Object o) {
-        return 0;
+        int index = -1;
+        for (int i = 0; i < realSize; i++) {
+            if (array[i] == o) {
+                index = i;
+                break;
+            }
+        }
+        return index;
     }
 
     public int lastIndexOf(Object o) {
-        return 0;
+        int index = -1;
+        for (int i = realSize; i >= 0 ; i--) {
+            if (array[i] == o) {
+                index = i;
+                break;
+            }
+        }
+        return index;
 
     }
 
