@@ -21,6 +21,9 @@ public class MyLinkedList {
             }
             currentNode = currentNode.getNext();
         }
+        if (currentNode.getValue().equals(o)) {
+            return true;
+        }
         return false;
     }
 
