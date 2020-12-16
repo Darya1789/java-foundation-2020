@@ -10,10 +10,17 @@ public class MyLinkedList {
     }
 
     public boolean isEmpty() {
-        return false;
+        return realSize == 0;
     }
 
     public boolean contains(Object o) {
+        Node currentNode = head;
+        while (currentNode.getNext() != null) {
+            if (currentNode.getValue().equals(o)) {
+                return true;
+            }
+            currentNode = currentNode.getNext();
+        }
         return false;
     }
 
@@ -23,7 +30,7 @@ public class MyLinkedList {
             head = node;
         } else {
             Node curNode = head;
-            while(curNode.getNext() != null) {
+            while (curNode.getNext() != null) {
                 curNode = curNode.getNext();
             }
             curNode.setNext(node);
