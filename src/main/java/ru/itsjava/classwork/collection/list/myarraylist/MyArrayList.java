@@ -23,7 +23,11 @@ public class MyArrayList {
     }
 
     public Object[] toArray() {
-        return array;
+        Object[] realArray = new Object[realSize];
+        for (int i = 0; i < realSize; i++) {
+            realArray[i] = array[i];
+        }
+        return realArray;
     }
 
     public boolean add(Object o) {
@@ -97,8 +101,7 @@ public class MyArrayList {
         int index = -1;
         for (int i = 0; i < realSize; i++) {
             if (array[i] == o) {
-                index = i;
-                break;
+                return i;
             }
         }
         return index;
@@ -108,8 +111,7 @@ public class MyArrayList {
         int index = -1;
         for (int i = realSize; i >= 0 ; i--) {
             if (array[i] == o) {
-                index = i;
-                break;
+                return i;
             }
         }
         return index;
