@@ -73,12 +73,10 @@ public class MyLinkedList {
             return head.getValue();
         }
 
-        Node prevNode = head;
         Node curNode = head.getNext();
 
         int curIndex = 1;
         while (curIndex != index) {
-            prevNode = prevNode.getNext();
             curNode = curNode.getNext();
             curIndex++;
         }
@@ -93,12 +91,10 @@ public class MyLinkedList {
             return head.getValue();
         }
 
-        Node prevNode = head;
         Node curNode = head.getNext();
 
         int curIndex = 1;
         while (curIndex != index) {
-            prevNode = prevNode.getNext();
             curNode = curNode.getNext();
             curIndex++;
         }
@@ -174,7 +170,7 @@ public class MyLinkedList {
             }
             curNode = curNode.getNext();
         }
-        return index;
+        return -1;
     }
 
     public int lastIndexOf(Object o) {

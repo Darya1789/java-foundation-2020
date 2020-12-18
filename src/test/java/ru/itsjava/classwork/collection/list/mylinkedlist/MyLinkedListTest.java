@@ -119,7 +119,7 @@ public class MyLinkedListTest {
         assertEquals(DEFAULT_ELEM_2, list.get(1));
     }
 
-    @DisplayName(" должен корректно присваивать значение по индексу")
+    @DisplayName(" должен корректно заменять значение по индексу")
     @Test
     public void shouldCorrectSetMethod() {
         MyLinkedList list = new MyLinkedList();
@@ -168,7 +168,7 @@ public class MyLinkedListTest {
         list.add(DEFAULT_ELEM_2);
         list.add(DEFAULT_ELEM_2);
         Object[] tempArray = {DEFAULT_ELEM_1, DEFAULT_ELEM_2, DEFAULT_ELEM_2};
-        //  assertArrayEquals(tempArray, myArrayList.toArray());
+        assertArrayEquals(tempArray, list.toArray());
     }
 
     @DisplayName(" корректно добавлять элемент по индексу в начало")
