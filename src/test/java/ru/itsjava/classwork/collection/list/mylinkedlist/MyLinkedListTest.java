@@ -15,19 +15,55 @@ public class MyLinkedListTest {
     public static final String DEFAULT_ELEM_4 = "Elem 4";
     public static final String DEFAULT_ELEM_5 = "Elem 5";
 
-    @DisplayName(" корректно удалять по элементу")
+    @DisplayName(" корректно удалять 1й элемент по значению")
     @Test
-    public void shouldHaveCorrectRemoveByElement(){
+    public void shouldHaveCorrectRemoveByElement() {
         MyLinkedList list = new MyLinkedList();
         list.add(DEFAULT_ELEM_1);
+        list.add(DEFAULT_ELEM_2);
+        list.add(DEFAULT_ELEM_3);
+        list.add(DEFAULT_ELEM_4);
+        list.add(DEFAULT_ELEM_5);
         int sizeBeforeRemove = list.size();
-        list.remove(DEFAULT_ELEM_1);
-        assertEquals(sizeBeforeRemove - 1, list.size());
+
+        assertAll("list",
+                () -> assertTrue(list.remove(DEFAULT_ELEM_1)),
+                () -> assertEquals(sizeBeforeRemove - 1, list.size()));
+    }
+
+    @DisplayName(" корректно удалять элемент по середине по значению")
+    @Test
+    public void shouldHaveCorrectRemoveByElementFirst() {
+        MyLinkedList list = new MyLinkedList();
+        list.add(DEFAULT_ELEM_1);
+        list.add(DEFAULT_ELEM_2);
+        list.add(DEFAULT_ELEM_3);
+        list.add(DEFAULT_ELEM_4);
+        list.add(DEFAULT_ELEM_5);
+        int sizeBeforeRemove = list.size();
+        assertAll("list",
+                () -> assertTrue(list.remove(DEFAULT_ELEM_3)),
+                () -> assertEquals(sizeBeforeRemove - 1, list.size()));
+    }
+
+    @DisplayName(" корректно удалять по последний элемент")
+    @Test
+    public void shouldHaveCorrectRemoveByElementMiddle() {
+        MyLinkedList list = new MyLinkedList();
+        list.add(DEFAULT_ELEM_1);
+        list.add(DEFAULT_ELEM_2);
+        list.add(DEFAULT_ELEM_3);
+        list.add(DEFAULT_ELEM_4);
+        list.add(DEFAULT_ELEM_5);
+        int sizeBeforeRemove = list.size();
+        assertAll("list",
+                () -> assertTrue(list.remove(DEFAULT_ELEM_5)),
+                () -> assertEquals(sizeBeforeRemove - 1, list.size()));
     }
 
     @DisplayName(" корректно добавлять элемент")
     @Test
-    public void shouldHaveCorrectAddElement(){
+    public void shouldHaveCorrectAddElementLast() {
         MyLinkedList list = new MyLinkedList();
         int sizeBeforeRemive = list.size();
         list.add(DEFAULT_ELEM_1);
@@ -36,7 +72,7 @@ public class MyLinkedListTest {
 
     @DisplayName(" должен иметь правильный размер")
     @Test
-    public void shouldHaveCorrectSize(){
+    public void shouldHaveCorrectSize() {
         MyLinkedList list = new MyLinkedList();
         list.add(DEFAULT_ELEM_1);
         assertEquals(1, list.size());
@@ -44,14 +80,14 @@ public class MyLinkedListTest {
 
     @DisplayName(" должен корректно определять пустоту листа")
     @Test
-    public void shouldCorrectDefineAboutEmptyList(){
+    public void shouldCorrectDefineAboutEmptyList() {
         MyLinkedList list = new MyLinkedList();
         assertTrue(list.isEmpty());
     }
 
     @DisplayName(" должен корректно проверять наличие элемента в списке")
     @Test
-    public void shouldCorrectCheckObjectInList(){
+    public void shouldCorrectCheckObjectInList() {
         MyLinkedList list = new MyLinkedList();
         list.add(DEFAULT_ELEM_1);
         list.add(DEFAULT_ELEM_2);
@@ -59,15 +95,15 @@ public class MyLinkedListTest {
         list.add(DEFAULT_ELEM_4);
         list.add(DEFAULT_ELEM_5);
         assertAll("list",
-               // () -> assertTrue(list.contains(DEFAULT_ELEM_1)),
-               // () -> assertTrue(list.contains(DEFAULT_ELEM_3)),
+                () -> assertTrue(list.contains(DEFAULT_ELEM_1)),
+                () -> assertTrue(list.contains(DEFAULT_ELEM_3)),
                 () -> assertTrue(list.contains(DEFAULT_ELEM_5)));
 
     }
 
     @DisplayName(" должен корректно удалять весь список")
     @Test
-    public void shouldCorrectClearList(){
+    public void shouldCorrectClearList() {
         MyLinkedList list = new MyLinkedList();
         list.add(DEFAULT_ELEM_1);
         list.clear();
@@ -76,7 +112,7 @@ public class MyLinkedListTest {
 
     @DisplayName(" должен корректно получать элемент по индексу")
     @Test
-    public void shouldCorrectGetMethod(){
+    public void shouldCorrectGetMethod() {
         MyLinkedList list = new MyLinkedList();
         list.add(DEFAULT_ELEM_1);
         list.add(DEFAULT_ELEM_2);
@@ -85,16 +121,18 @@ public class MyLinkedListTest {
 
     @DisplayName(" должен корректно присваивать значение по индексу")
     @Test
-    public void shouldCorrectSetMethod(){
+    public void shouldCorrectSetMethod() {
         MyLinkedList list = new MyLinkedList();
         list.add(DEFAULT_ELEM_1);
-        list.set(0,DEFAULT_ELEM_2);
+        list.set(0, DEFAULT_ELEM_2);
         assertEquals(DEFAULT_ELEM_2, list.get(0));
     }
 
+
+
     @DisplayName(" корректно удалять по индексу")
     @Test
-    public void shouldHaveCorrectRemoveByIndex(){
+    public void shouldHaveCorrectRemoveByIndex() {
         MyLinkedList list = new MyLinkedList();
         list.add(DEFAULT_ELEM_1);
         int sizeBeforeRemive = list.size();
@@ -104,7 +142,7 @@ public class MyLinkedListTest {
 
     @DisplayName(" должен корректно определять индекс по значению элемента")
     @Test
-    public void shouldHaveCorrectIndexOfElement(){
+    public void shouldHaveCorrectIndexOfElement() {
         MyLinkedList list = new MyLinkedList();
         list.add(DEFAULT_ELEM_1);
         list.add(DEFAULT_ELEM_2);
@@ -114,7 +152,7 @@ public class MyLinkedListTest {
 
     @DisplayName(" должен корректно определять последний индекс по значению элемента")
     @Test
-    public void shouldHaveCorrectLastIndexOfElement(){
+    public void shouldHaveCorrectLastIndexOfElement() {
         MyLinkedList list = new MyLinkedList();
         list.add(DEFAULT_ELEM_1);
         list.add(DEFAULT_ELEM_2);
@@ -130,11 +168,57 @@ public class MyLinkedListTest {
         list.add(DEFAULT_ELEM_2);
         list.add(DEFAULT_ELEM_2);
         Object[] tempArray = {DEFAULT_ELEM_1, DEFAULT_ELEM_2, DEFAULT_ELEM_2};
-      //  assertArrayEquals(tempArray, myArrayList.toArray());
+        //  assertArrayEquals(tempArray, myArrayList.toArray());
     }
 
+    @DisplayName(" корректно добавлять элемент по индексу в начало")
+    @Test
+    public void shouldCorrectAddElementByIndexBeginning() {
+        MyLinkedList list = new MyLinkedList();
+        list.add(DEFAULT_ELEM_1);
+        list.add(DEFAULT_ELEM_2);
+        list.add(DEFAULT_ELEM_3);
+        list.add(DEFAULT_ELEM_4);
+        list.add(DEFAULT_ELEM_5);
+        int sizeBeforeAdd = list.size();
+        list.add(0, DEFAULT_ELEM_5);
+        assertAll("list",
+                () -> assertEquals(DEFAULT_ELEM_5, list.get(0)),
+                () -> assertEquals(sizeBeforeAdd + 1, list.size()));
 
+    }
 
+    @DisplayName(" корректно добавлять элемент по индексу в середину")
+    @Test
+    public void shouldCorrectAddElementByIndexMiddle() {
+        MyLinkedList list = new MyLinkedList();
+        list.add(DEFAULT_ELEM_1);
+        list.add(DEFAULT_ELEM_2);
+        list.add(DEFAULT_ELEM_3);
+        list.add(DEFAULT_ELEM_4);
+        list.add(DEFAULT_ELEM_5);
+        int sizeBeforeAdd = list.size();
+        list.add(3, DEFAULT_ELEM_5);
+        assertAll("list",
+                () -> assertEquals(DEFAULT_ELEM_5, list.get(3)),
+                () -> assertEquals(sizeBeforeAdd + 1, list.size()));
+
+    }@DisplayName(" корректно добавлять элемент по индексу в конец")
+    @Test
+    public void shouldCorrectAddElementByIndexEnd() {
+        MyLinkedList list = new MyLinkedList();
+        list.add(DEFAULT_ELEM_1);
+        list.add(DEFAULT_ELEM_2);
+        list.add(DEFAULT_ELEM_3);
+        list.add(DEFAULT_ELEM_4);
+        list.add(DEFAULT_ELEM_5);
+        int sizeBeforeAdd = list.size();
+        list.add(5, DEFAULT_ELEM_1);
+        assertAll("list",
+                () -> assertEquals(DEFAULT_ELEM_1, list.get(5)),
+                () -> assertEquals(sizeBeforeAdd + 1, list.size()));
+
+    }
 
 
 }

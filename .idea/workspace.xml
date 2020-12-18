@@ -13,15 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18b6dc59-85d7-44fc-bed0-92d1d2c1d938" name="Default Changelist" comment="classwork about arraylist">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedListPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/mylinkedlist/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/itsjava/classwork/collection/list/myarraylist/MyArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedListTest.java" afterDir="false" />
+    <list default="true" id="18b6dc59-85d7-44fc-bed0-92d1d2c1d938" name="Default Changelist" comment="Homework: fix method contains in MyLinkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/myarraylist/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/myarraylist/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/myarraylist/MyArrayListPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/myarraylist/MyArrayListPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedListPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedListPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/itsjava/classwork/collection/list/mylinkedlist/MyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,33 +69,7 @@
       <recent name="ru.itsjava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyLinkedListTest.shouldHaveCorrectAddElement">
-    <configuration name="ArrayListHW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.itsjava.homework.collection.list.ArrayListHW" />
-      <module name="java-foundation-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.itsjava.homework.collection.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyArrayListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.collection.list.myarraylist.MyArrayListPractice" />
-      <module name="java-foundation-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.itsjava.classwork.collection.list.myarraylist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyLinkedListTest">
     <configuration name="MyLinkedListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist.MyLinkedListPractice" />
       <module name="java-foundation-2020" />
@@ -113,22 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-foundation-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.itsjava.classwork.collection.list.myarraylist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.itsjava.classwork.collection.list.myarraylist" />
-      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.collection.list.myarraylist.MyArrayListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLinkedListTest.shouldHaveCorrectAddElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-foundation-2020" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +93,54 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist.MyLinkedListTest" />
-      <option name="METHOD_NAME" value="shouldHaveCorrectAddElement" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedListTest.shouldCorrectAddElementByIndexEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-foundation-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itsjava.classwork.collection.list.mylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist.MyLinkedListTest" />
+      <option name="METHOD_NAME" value="shouldCorrectAddElementByIndexEnd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedListTest.shouldHaveCorrectIndexOfElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-foundation-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itsjava.classwork.collection.list.mylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist.MyLinkedListTest" />
+      <option name="METHOD_NAME" value="shouldHaveCorrectIndexOfElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedListTest.shouldHaveCorrectLastIndexOfElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-foundation-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itsjava.classwork.collection.list.mylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="ru.itsjava.classwork.collection.list.mylinkedlist.MyLinkedListTest" />
+      <option name="METHOD_NAME" value="shouldHaveCorrectLastIndexOfElement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyLinkedListTest.shouldHaveCorrectAddElement" />
+        <item itemvalue="JUnit.MyLinkedListTest" />
+        <item itemvalue="JUnit.MyLinkedListTest.shouldHaveCorrectLastIndexOfElement" />
+        <item itemvalue="JUnit.MyLinkedListTest.shouldHaveCorrectIndexOfElement" />
+        <item itemvalue="JUnit.MyLinkedListTest.shouldCorrectAddElementByIndexEnd" />
         <item itemvalue="Application.MyLinkedListPractice" />
-        <item itemvalue="Application.MyArrayListPractice" />
-        <item itemvalue="JUnit.MyArrayListTest" />
-        <item itemvalue="Application.ArrayListHW" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +354,49 @@
       <option name="project" value="LOCAL" />
       <updated>1607719089001</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="classwork about arraylist + linkedlist">
+      <created>1608058733463</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608058733463</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Homework: ArrayList methods">
+      <created>1608059576525</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1608059576525</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Homework: Tests for ArrayList">
+      <created>1608061390232</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1608061390232</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Homework: Add method toArray and test fo this method">
+      <created>1608151551711</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1608151551711</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Homework: MyLinkedList add contain method and isEmpty">
+      <created>1608153023194</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1608153023194</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Homework: fix method contains in MyLinkedList">
+      <created>1608156676239</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1608156676239</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -368,11 +412,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add properties to pom.xml&#10;+ add Jungle.java and Lion.java" />
-    <MESSAGE value="add Hyena.java, Meerkat.java, WildBoar.java" />
-    <MESSAGE value="Java oop in class" />
-    <MESSAGE value="New package for Homework&#10;add Cow.java, Cup.java, Shop.java, StartClass.java" />
-    <MESSAGE value="add 5 new classes" />
     <MESSAGE value="add in StartClass.java functionality" />
     <MESSAGE value="add homewoke N2" />
     <MESSAGE value="change parameter in Man.java and Woman.java" />
@@ -392,7 +431,13 @@
     <MESSAGE value="Homework Enums" />
     <MESSAGE value="correct" />
     <MESSAGE value="classwork about arraylist" />
-    <option name="LAST_COMMIT_MESSAGE" value="classwork about arraylist" />
+    <MESSAGE value="classwork about arraylist + linkedlist" />
+    <MESSAGE value="Homework: ArrayList methods" />
+    <MESSAGE value="Homework: Tests for ArrayList" />
+    <MESSAGE value="Homework: Add method toArray and test fo this method" />
+    <MESSAGE value="Homework: MyLinkedList add contain method and isEmpty" />
+    <MESSAGE value="Homework: fix method contains in MyLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework: fix method contains in MyLinkedList" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -400,10 +445,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1607015586980" />
-    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1608056713888">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1608152854158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1608056713888" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1608152854158" />
+    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1608245202881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="767" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1608245202881" />
     <state x="449" y="146" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606769155560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -412,10 +461,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="370" y="334" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1607451840815" />
-    <state x="549" y="277" width="437" height="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606146258652">
+    <state x="549" y="277" width="505" height="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608152191182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="277" width="437" height="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1606146258652" />
+    <state x="549" y="277" width="505" height="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1608152191182" />
     <state x="557" y="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1607451842159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -440,38 +489,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="491" y="116" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604595779339" />
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom" timestamp="1608058098591">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1608316952435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
-    <state width="1493" height="255" key="GridCell.Tab.0.center" timestamp="1608058098591">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608316952435" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1608316952435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
-    <state width="1493" height="255" key="GridCell.Tab.0.left" timestamp="1608058098591">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608316952435" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1608316952435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
-    <state width="1493" height="255" key="GridCell.Tab.0.right" timestamp="1608058098591">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608316952435" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1608316952435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
-    <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1608058098591">
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608316952435" />
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1608157082606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
-    <state width="1493" height="255" key="GridCell.Tab.1.center" timestamp="1608058098591">
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608157082606" />
+    <state width="1493" height="255" key="GridCell.Tab.1.center" timestamp="1608157082606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
-    <state width="1493" height="255" key="GridCell.Tab.1.left" timestamp="1608058098591">
+    <state width="1493" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608157082606" />
+    <state width="1493" height="255" key="GridCell.Tab.1.left" timestamp="1608157082606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
-    <state width="1493" height="255" key="GridCell.Tab.1.right" timestamp="1608058098591">
+    <state width="1493" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608157082606" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right" timestamp="1608157082606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608058098591" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608157082606" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1607542642699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -492,10 +541,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607019315883" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607719091255">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608156678391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607719091255" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608156678391" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604786595195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
