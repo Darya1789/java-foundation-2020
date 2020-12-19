@@ -162,7 +162,6 @@ public class MyLinkedList {
     }
 
     public int indexOf(Object o) {
-        int index = -1;
         Node curNode = head;
         for (int i = 0; i < realSize; i++) {
             if (curNode.getValue().equals(o)) {
