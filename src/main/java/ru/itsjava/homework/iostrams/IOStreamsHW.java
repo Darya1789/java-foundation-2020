@@ -21,34 +21,51 @@ public class IOStreamsHW {
 
         // Поменять значения 2х файлов местами
 
-        File file1 = new File("src/main/resources/user.out");
-        File file2 = new File("src/main/resources/vladimir.out");
+        File file1 = new File("src/main/resources/file1");
+        File file2 = new File("src/main/resources/file2");
+        File fileTemp = new File("src/main/resources/fileTemp");
 
-        String str1 = null;
-        String str2 = null;
         try (BufferedReader fileReader = new BufferedReader(new FileReader(file1))) {
-            str1 = fileReader.readLine();
+            String input;
+            while ((input = fileReader.readLine()) != null) {
+                try (PrintWriter fileWriter = new PrintWriter(fileTemp)) {
+                    fileWriter.println(input);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
+
 
         try (BufferedReader fileReader = new BufferedReader(new FileReader(file2))) {
-            str2 = fileReader.readLine();
+            String input;
+            while ((input = fileReader.readLine()) != null) {
+                try (PrintWriter fileWriter = new PrintWriter(file1)) {
+                    fileWriter.println(input);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        try (PrintWriter fileWriter = new PrintWriter(file1)) {
-            fileWriter.println(str2);
+        try (BufferedReader fileReader = new BufferedReader(new FileReader(fileTemp))) {
+            String input;
+            while ((input = fileReader.readLine()) != null) {
+                try (PrintWriter fileWriter = new PrintWriter(file2)) {
+                    fileWriter.println(input);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        try (PrintWriter fileWriter = new PrintWriter(file2)) {
-            fileWriter.println(str1);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
 
         // ввод 10 предложений в файл
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
