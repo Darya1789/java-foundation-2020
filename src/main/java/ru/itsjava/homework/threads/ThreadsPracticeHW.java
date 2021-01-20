@@ -5,20 +5,20 @@ public class ThreadsPracticeHW {
         // Задание 1. создать два потока разными способами и запустить их
         System.out.println("Задание 1. создать два потока разными способами и запустить их");
         Thread thread1 = new Thread1();
-        Thread thread2 = new Thread(new Thread2());
+        Thread runnableThread2 = new Thread(new Thread2());
         thread1.start();
-        thread2.start();
+        runnableThread2.start();
         Thread.sleep(100000);
 
         // Задание 2. Создать 3 поток, запустить все 3 потока, дождаться завершения 2 потока. 3 поток сделать демоном
         System.out.println("Задание 2.");
         Thread thread3 = new Thread1();
-        Thread thread4= new Thread(new Thread2());
+        Thread runnableThread4= new Thread(new Thread2());
         Thread thread5 = new Thread3();
         thread5.setDaemon(true);
 
-        thread4.start();
-        thread4.join();
+        runnableThread4.start();
+        runnableThread4.join();
         thread3.start();
         thread5.start();
 
